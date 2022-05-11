@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studen enrollment system</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>Student Enrollment Form</h1>
+        </div>
+
+        <div class="form">
+            <div class="input_field">
+                <label>Name: </label>
+                <input type="text" name="name" id="name" placeholder="Ex.- Abc pqr" required><br>
+            </div>
+
+            <div class="input_field">
+                <label>Email-id: </label>
+                <input type="email" name="email" id="mail" placeholder="Ex.- abcd@mail.com" required><br>
+            </div>
+            <div class="input_field">
+                <label>Age: </label>
+                <input type="number" name="age" id="age" placeholder="Ex.- 18" required><br>
+            </div>
+            <div class="input_field">
+                <label>Enter your  College Website: </label>
+                <input type="url" name="web" id="web" required><br>
+            </div>
+            <div class="input_field">
+                <label>Upload profile info: </label>
+                <input type="file" name="file" id="file" required><br>
+            </div>
+            <div>
+           
+                <label>Gender:</label>
+                <input type="radio" name="gender" id="male"> Male <br>
+                <input type="radio" name="gender" id="female" > Female <br>
+            </div> 
+
+           
+            <button id="btn" class="btn" >Enroll now</button>
+            
+
+        </div>
+
+
+
+        <div class="info">
+        <table border="2" id="display" class="list">
+			<thead>
+				<tr class="list">
+					<th> Name</th>
+					<th>Email-id</th>
+					<th>Age</th>
+                    <th>Website</th>
+                  
+                    <th>Profile Info</th>
+         
+                    
+				</tr>
+			</thead>
+            
+		</table>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
